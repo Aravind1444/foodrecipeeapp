@@ -1,0 +1,49 @@
+.recipe {
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgb(219, 219, 219);
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: white;
+    align-items: center;
+    width: 45%;
+    padding: 10px;
+}
+
+.image {
+    border-radius: 10%;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.theingredient {
+    margin: 10px;
+    background-color: black;
+}
+
+.calories {
+    margin: 20px;
+}
+
+.title{
+    margin: 15px;
+}
+
+@media screen and (max-width: 600px) {
+    
+    .recipe {
+        border-radius: 10px;
+        box-shadow: 0px 5px 20px rgb(219, 219, 219);
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background: white;
+        align-items: center;
+        width: 85%;
+        padding: 10px;
+    }
+
+}
